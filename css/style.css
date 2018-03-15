@@ -3,18 +3,17 @@ html, body {
   padding: 0;
 }
 
+p {
+	text-align: center;
+}
+
 header {
   background-color: #333333;
   position: fixed;
   width:100%;
   z-index: 5;
  
-  
-
-
-  
-  
-}
+ }
 
 nav {
   margin: 0;
@@ -33,15 +32,17 @@ nav li {
 .container {
 	background-image: url(C:/xampp/htdocs/broadway2/img/bg.jpg);
 	width: 100%;
-	height: 800px;
-	position: absolute;
-	top: 0px;
+	height: 600px;
+
+	
 }
 
 .container h1 {
 	text-align: center;
 	position: relative;
-	top: 150px;
+	top: 200px;
+	text-align: center;
+	
 	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	font-weight: 600;
@@ -49,12 +50,42 @@ nav li {
 
 .container button {
 	display: inline-block;
-	position: relative;
-	top: 200px;
-	left: 45%;
+	text-align: center;
 	background-color: black;
 	color:white;
 	padding: 15px;
+	position: relative;
+	margin-top: 350px;
+	margin-left: 47%;
 }
 
 
+
+.container2 h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+ img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 47%;
+}
+
+.container2 p{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 10px;
+    color:white;
+    position: relative;
+    left: 47%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.container2 h4{
+	text-align: center;
+}
